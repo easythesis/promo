@@ -127,8 +127,6 @@ footer.footer {
 }
 
 /* change the color of active or hovered links */
-.nav-item.active .nav-link,
-.nav-item:focus .nav-link,
-.nav-item:hover .nav-link {
+.navbar .nav-item:active .nav-link, .navbar .nav-item:focus .nav-link, .navbar .nav-item:hover .nav-link {
   color: red;
 }
