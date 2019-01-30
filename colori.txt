@@ -1,0 +1,5 @@
+EEE81C  giallo
+F4F0D4  bianco
+DAAB57  marrone
+C25E34  arancione
+0C0C0C  nero
