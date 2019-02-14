@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 80px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,10 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 header.landing-main {
   position: relative;
   background-color: white;
-  background: url("../img/student-success.jpg") no-repeat center center;
+  background: url("../img/students.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 
 header.landing-main .overlay {
@@ -32,7 +33,7 @@ header.landing-main h1 {
 @media (min-width: 769px) {
   header.landing-main {
     padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
   }
   header.landing-main h1 {
     font-size: 3rem;
@@ -54,24 +55,24 @@ header.landing-main h1 {
   }
 }
 
-.features-icons {
+.key-benefits {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.features-icons .features-icons-item {
+.key-benefits .key-benefits-item {
   max-width: 20rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon {
+.key-benefits .key-benefits-item .key-benefits-icon {
   height: 7rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon i {
+.key-benefits .key-benefits-item .key-benefits-icon i {
   font-size: 4.5rem;
 }
 
-.features-icons .features-icons-item:hover .features-icons-icon i {
+.key-benefits .key-benefits-item:hover .key-benefits-icon i {
   font-size: 5rem;
 }
 
@@ -118,6 +119,7 @@ footer.footer {
 .navbar {
   min-height: 80px;
   background-color: #F4F0D4;
+  clear: both;
 }
 
 /* change the brand and text color */
@@ -131,8 +133,4 @@ footer.footer {
 .nav-item:focus .nav-link,
 .nav-item:hover .nav-link {
   color: red;
-}
-
-body {
-    padding-top: 65px;
 }
