@@ -34,32 +34,22 @@ body {
     min-width: 100%;
 }
 
-.main-text
+.main-header
 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.main-header > col {
+    width: 66%;
+}
+
+.header {
     margin:0;
     width: 100%;
     color: white;
     background-color:rgba(0, 0, 0, 0.5);
-}
-.main-text > col {
-    width: 66%;
-}
-
-.btn-clear {
-    color: white;
-    background-color: green;
-    border: 2px solid green;
-    margin-right: 15px;
-}
-
-.btn-clear:hover {
-    color: black;
-    border-color: white;
-    background-color: white;
 }
 
 
@@ -83,8 +73,8 @@ body {
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+.divisore {
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -92,6 +82,20 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
+    text-align: center;
+}
+
+.card-text ul > li{
+    margin: 10px 0px;
+}
+
+.bottone-home {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .bottone-home {
+        width: 75%;
+    }
 }
 
 
@@ -113,7 +117,7 @@ body {
 
 @media (min-width: 62em) {
     .featurette-heading {
-        margin-top: 7rem;
+        margin-top: 4rem;
     }
 }
 
