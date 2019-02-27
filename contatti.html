@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <title>Easy Thesis &middot; Contatti</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="include/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- More styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="80" height="50" class="d-inline-block align-self-center" alt="">
+            Per una migliore università!
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav text-center ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(attuale)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="funzionalita.html">Funzionalità</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tariffe.html">Tariffe</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contatti.html">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="row header justify-content-center p-4">
+        <div class="col-sm-12 col-md-10 col-lg-8 text-center">
+            <h1>Contattaci</h1>
+        </div>
+    </div>
+    <div class="row container justify-content-center mt-5 mx-auto">
+        <form class="col-12 col-md-9 mb-5" action="#">
+            <h4 class="text-muted text-center">Le tue informazioni</h4><br />
+            <div class="w-100"></div>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-3 col-form-label">Nome e Cognome</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputName" placeholder="Inserisci il tuo nome">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-3 col-form-label">Indirizzo e-mail</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Il tuo indirizzo e-mail">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputProv" class="col-sm-3 col-form-label">Mansione nell'università</label>
+                <div class="col-sm-9">
+                    <select id="inputProv" class="form-control">
+                        <option selected disabled>Scegli ...</option>
+                        <option>Centro di comunicazione</option>
+                        <option>Membro del consiglio universitario</option>
+                        <option>Dipendente della segreteria</option>
+                        <option>Altro</option>
+                    </select>
+                </div>
+            </div>
+            <br /><h4 class="text-muted text-center">Le informazioni sull'università</h4><br />
+            <div class="form-group row">
+                <label for="inputUni" class="col-sm-3 col-form-label">Università</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputUni" placeholder="Il nome completo dell'università">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputCitta" class="col-sm-3 col-form-label">Città</label>
+                <div class="col-sm-9">
+                    <div class="form-row">
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control col-11 mb-3 mb-sm-0" id="inputCitta" placeholder="Citta">
+                    </div>
+                    <div class="col-sm-4">
+                        <select id="inputProv" class="form-control col-11 mb-3">
+                            <option selected disabled>Scegli ...</option>
+                            <option>AQ</option>
+                            <option>CH</option>
+                            <option>PE</option>
+                            <option>TE</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control col-11 mb-3" id="inputCap" placeholder="CAP">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                    <label for="inputUni" class="col-sm-3 col-form-label">Consenso al trattamento</label>
+                    <div class="col-sm-9">
+                        <input class="form-check-input ml-0" type="checkbox" id="gridCheck">
+                        <label class="form-check-label pl-4" for="gridCheck">
+                            Ho letto ed accetto il trattamento dei dati personali in accordo alla normativa sulla privacy (<a href="#">Leggi</a>)
+                        </label>
+                    </div>
+            </div>
+            <div class="form-group row">
+                <label for="comment" class="col-sm-3 col-form-label">Messaggio <i class="text-muted">(opzionale)</i> :</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" rows="3" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-12 bottone-home mx-auto">
+                    <button type="submit" class="btn btn-block btn-lg btn-primary">Invia</button>
+                </div>
+            </div>
+        </form>
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-right"><a href="#">Torna Sopra</a></p>
+        <p>&copy; 2019 EasyThesis Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Condizioni</a></p>
+    </footer>
+</main>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="include/js/jquery-slim.min.js"><\/script>')</script>
+<script src="include/js/vendor/popper.min.js"></script>
+<script src="include/js/bootstrap.min.js"></script>
+</body>
+</html>
