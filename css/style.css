@@ -9,8 +9,25 @@ body {
 }
 
 nav.navbar {
-    background-color: #ffebb0;
+    background-image: url("../img/legno.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #FFCC00;
     border-bottom: 1px solid black;
+}
+
+a.navbar-brand {
+    font-family: "Lucida Handwriting", cursive;
+    color: #FFCC00 !important;
+}
+
+.nav-item a.nav-link{
+    color: #FFCC66 !important;
+}
+.active a.nav-link{
+    color: #FFCC00 !important;
+    text-decoration: underline;
 }
 
 main {
@@ -130,16 +147,33 @@ main {
     }
 }
 
-/* TARIFFE
+/* CONTATTI
 ------------------------------------ */
-section.pricing {
+div.contatti {
     background: #007bff;
     background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+@media (min-width: 576px) {
+    div.contatti {
+        min-width: 66%;
+    }
+}
+
+/* TARIFFE
+------------------------------------ */
+div.pricing {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+@media (min-width: 576px) {
+    div.pricing {
+        min-width: 66%;
+    }
 }
 
 .pricing .card {
     border: none;
-    border-radius: 1rem;
+    border-radius: 0rem;
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
