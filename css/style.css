@@ -150,13 +150,20 @@ main {
 /* CONTATTI
 ------------------------------------ */
 div.contatti {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    /*background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);*/
 }
+
+.contatti-bordo {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 1rem;
+}
+
 @media (min-width: 576px) {
-    div.contatti {
-        min-width: 66%;
-    }
+div.contatti {
+    min-width: 66%;
+}
 }
 
 /* TARIFFE
