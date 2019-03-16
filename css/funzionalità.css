@@ -1,9 +1,29 @@
-.mt-top {
-    margin-top: 70px;
+.card{
+    margin:1rem;
 }
 
+.card-title
+{
+    margin-bottom: 1.3rem;
+}
 
-.mt {
-    margin-top: 50px;
-    margin-bottom: 50px;
+ul.card-text
+{
+    list-style: none;
+    text-align: center;
+}
+
+ul.card-text >li
+{
+    margin-top: 0.4rem;
+}
+
+div.funzionalita {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+@media (min-width: 576px) {
+    div.funzionalita {
+        min-width: 66%;
+    }
 }
