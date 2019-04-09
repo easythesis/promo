@@ -4,16 +4,19 @@
 
 body {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    /*padding-bottom: 3rem;*/
     color: #5a5a5a;
+}
+.navbar-toggler {
+    background-color: lightyellow;
 }
 
 main
 {
-    background-color: beige;
+    /*background-color: beige;*/
 }
 
-nav.navbar {
+nav.navbar, footer.footer-content {
     background-image: url("../img/legno.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -27,10 +30,10 @@ a.navbar-brand {
     color: #FFCC00 !important;
 }
 
-.nav-item a.nav-link{
+.nav-item a.nav-link, footer .link {
     color: #FFCC66 !important;
 }
-.active a.nav-link{
+.active a.nav-link {
     color: #FFCC00 !important;
     text-decoration: underline;
 }
@@ -79,6 +82,12 @@ main {
 .header {
     margin:0;
     width: 100%;
+    color: black;
+}
+
+.main-header-text {
+    margin:0;
+    width: 100%;
     color: white;
     background-color:rgba(0, 0, 0, 0.5);
 }
@@ -125,8 +134,14 @@ main {
 }
 @media (min-width: 768px) {
     .bottone-home {
-        width: 75%;
+        width: 100%;
     }
+}
+
+.allinea-basso {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -174,8 +189,9 @@ div.contatti {
 /* TARIFFE
 ------------------------------------ */
 div.pricing {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    background: white;
+    background: linear-gradient(to top, #D98A00, #FFFA70   );
+
 }
 @media (min-width: 576px) {
     div.pricing {
