@@ -190,7 +190,7 @@ div.contatti {
 ------------------------------------ */
 div.pricing {
     background: white;
-    background: linear-gradient(to top, #D98A00, #FFFA70   );
+    /*background: linear-gradient(to top, #D98A00, #FFFA70   );*/
 
 }
 @media (min-width: 576px) {
